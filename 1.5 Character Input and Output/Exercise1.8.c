@@ -7,10 +7,10 @@ int main(){
 			t+=1;
 		}
 		if(c==' '){
-                        b+=1;
+            b+=1;
                 }
 		if(c=='\n'){
-                        nl+=1;
+            nl+=1;
                 }
 	}
 	printf("tabs:%d\nempty spaces:%d\nnewlines:%d",t,b,nl);
