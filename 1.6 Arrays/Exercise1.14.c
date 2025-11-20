@@ -11,14 +11,7 @@ int main(){
         characters[i++]=c;
     }
     characters[i]='\0';
-    /*for (int l=0;l<i;++l){
-        for (int j=0;j<i;++j){
-            if (characters[l]==characters[j]){
-                frequency++;
-            }
 
-        }
-    }*/
     int k=0;
     for (int l=0;l<i;++l){
     int found=0;
