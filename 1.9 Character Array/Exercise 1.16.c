@@ -12,6 +12,7 @@ int main(){
 		copy(line,longest);
 		}
 	printf("\nLongest line:%s\n",longest);
+	printf("Size: %d",max)
 	return 0;
 	}
 int get_line(char line[],int limit){
